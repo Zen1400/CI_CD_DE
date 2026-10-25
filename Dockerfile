@@ -27,8 +27,6 @@ RUN pip install --upgrade pip \
 
 COPY app/ app/
 
-EXPOSE 8000
-
 ENTRYPOINT [ "poetry", "run" ]
 
 # YOUR CODE HERE
